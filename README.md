@@ -42,7 +42,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    npm i bcrypt dotenv express jsonwebtoken pg swagger-jsdoc swagger-ui-express
 
-4. Configure your PostgreSQL database connection by setting the database URL in .env:
+4. Setting up environment in .env for PostgreSQL connection and jwt secret key:
    ```env
     JWT_SECRET_KEY=your-secret-key
     PG_USER=your-username
